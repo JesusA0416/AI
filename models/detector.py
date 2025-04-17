@@ -2,8 +2,8 @@ import openai
 import re
 from utils.entropy import calculate_entropy
 
-# 🔐 Your OpenAI key
-openai.api_key = "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"
+import os
+openai.api_key = os.getenv("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")
 
 def call_openai_classifier(text):
     import traceback
