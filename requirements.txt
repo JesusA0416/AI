@@ -1,4 +1,1 @@
-fastapi
-uvicorn
-openai
-fpdf
+openai==0.28
